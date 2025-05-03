@@ -1,5 +1,5 @@
 {
-  "name": "dropdown-menu",
+  "name": "my-task-dropdown-menu",
   "version": "1.0.0",
   "description": "A simple JavaScript dropdown toggle utility",
   "main": "dist/index.js",
