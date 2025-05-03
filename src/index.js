@@ -5,7 +5,7 @@ const menuItems = document.querySelector('.js-menu-item');
 const toggleViewTask2 = document.querySelector('.view-tasks-btn2');
 const menuItems2 = document.querySelector('.js-menu-item2');
 
-function toggleMenu(menuClassName, className) {
+export function toggleMenu(menuClassName, className) {
   menuClassName.classList.toggle(className);
 
   if (menuClassName.classList.contains(className)) {
