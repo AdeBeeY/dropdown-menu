@@ -1,3 +1,36 @@
 body {
   background-color: pink;
 }
+
+.tasks-container {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  width: max-content;
+  border: solid white 1px;
+  padding: 20px;
+}
+
+li {
+  padding: 15px 10px;
+  background-color: rgba(226, 219, 219, 0.363);
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.view-tasks-btn,
+.view-tasks-btn2 {
+  font-size: 24px;
+  font-weight: 800;
+  cursor: pointer;
+  margin-right: 20px;
+  color:blue
+}
+
+.menu-item, 
+.menu-item2 {
+  display: none;
+}
